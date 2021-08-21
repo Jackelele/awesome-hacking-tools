@@ -3,7 +3,8 @@ A collective selection of hacking tools for hackers, pentesters and researchers.
 
 ## Table Of Contents
 * [Android Security](#Android-Security)
-* Application Security
+* [Application Security](#Application-Security)
+* [Asset Discovery](#Asset-Discovery)
 * Bug Bounty
 * CTF
 * Cyber Skills
@@ -189,3 +190,151 @@ A collection of Android Security related Resources.
 #### How to report Security Issues
 * [Android - reporting security issues](https://source.android.com/security/overview/updates-resources.html#report-issues) - Reporting issues via Android
 * [Android Reports and Resources](https://github.com/B3nac/Android-Reports-and-Resources) - List of Android Hackerone disclosed reports and other resources
+
+## Application Security
+
+### Application Security Learning Resources
+
+  * [How to Safely Generate a Random Number](#how-to-safely-generate-a-random-number-2014) (2014)
+  * [Salted Password Hashing - Doing it Right](#salted-password-hashing-doing-it-right-2014) (2014)
+  * [A good idea with bad usage: /dev/urandom](#a-good-idea-with-bad-usage-devurandom-2014) (2014)
+  * [Why Invest in Application Security?](#why-invest-in-application-security-2015) (2015)
+  * [Be wary of one-time pads and other crypto unicorns](#be-wary-of-one-time-pads-and-other-crypto-unicorns-2015) (2015)
+  * [Web Application Hacker's Handbook](https://github.com/paragonie/awesome-appsec/blob/master/#-web-application-hackers-handbook-2011) (2011) 
+  * [Cryptography Engineering](https://github.com/paragonie/awesome-appsec/blob/master/#-cryptography-engineering-2010) (2010) 
+  * [Securing DevOps](https://github.com/paragonie/awesome-appsec/blob/master/#-securing-devops-2018) (2018) 
+  * [Gray Hat Python: Programming for Hackers and Reverse Engineers](https://github.com/paragonie/awesome-appsec/blob/master/#-gray-hat-python-programming-for-hackers-and-reverse-engineers-2009) (2009) 
+  * [The Art of Software Security Assessment: Identifying and Preventing Software Vulnerabilities](https://github.com/paragonie/awesome-appsec/blob/master/#-the-art-of-software-security-assessment-identifying-and-preventing-software-vulnerabilities-2006) (2006) 
+  * [C Interfaces and Implementations: Techniques for Creating Reusable Software](https://github.com/paragonie/awesome-appsec/blob/master/#-c-interfaces-and-implementations-techniques-for-creating-reusable-software-1996) (1996) 
+  * [Reversing: Secrets of Reverse Engineering](https://github.com/paragonie/awesome-appsec/blob/master/#-reversing-secrets-of-reverse-engineering-2005) (2005) 
+  * [JavaScript: The Good parts](https://github.com/paragonie/awesome-appsec/blob/master/#-javascript-the-good-parts-2008) (2008) 
+  * [Windows Internals: Including Windows Server 2008 and Windows Vista, Fifth Edition ](https://github.com/paragonie/awesome-appsec/blob/master/#-windows-internals-including-windows-server-2008-and-windows-vista-fifth-edition-2007) (2007) 
+  * [The Mac Hacker's Handbook](https://github.com/paragonie/awesome-appsec/blob/master/#-the-mac-hackers-handbook-2009) (2009) 
+  * [The IDA Pro Book: The Unofficial Guide to the World's Most Popular Disassembler](https://github.com/paragonie/awesome-appsec/blob/master/#-the-ida-pro-book-the-unofficial-guide-to-the-worlds-most-popular-disassembler-2008) (2008) 
+  * [Internetworking with TCP/IP Vol. II: ANSI C Version: Design, Implementation, and Internals (3rd Edition)](https://github.com/paragonie/awesome-appsec/blob/master/#-internetworking-with-tcpip-vol-ii-ansi-c-version-design-implementation-and-internals-3rd-edition-1998) (1998) 
+  * [Network Algorithmics,: An Interdisciplinary Approach to Designing Fast Networked Devices](https://github.com/paragonie/awesome-appsec/blob/master/#-network-algorithmics-an-interdisciplinary-approach-to-designing-fast-networked-devices-2004) (2004) 
+  * [Computation Structures (MIT Electrical Engineering and Computer Science)](https://github.com/paragonie/awesome-appsec/blob/master/#-computation-structures-mit-electrical-engineering-and-computer-science-1989) (1989) 
+  * [Surreptitious Software: Obfuscation, Watermarking, and Tamperproofing for Software Protection](https://github.com/paragonie/awesome-appsec/blob/master/#-surreptitious-software-obfuscation-watermarking-and-tamperproofing-for-software-protection-2009) (2009)
+  * [Secure Programming HOWTO](#secure-programming-howto-2015) (2015)
+  * [Security Engineering - Second Edition](#security-engineering-second-edition-2008) (2008)
+  * [Bulletproof SSL and TLS](https://github.com/paragonie/awesome-appsec/blob/master/#-bulletproof-ssl-and-tls-2014) (2014)
+  * [Holistic Info-Sec for Web Developers (Fascicle 0)](#holistic-info-sec-for-web-developers-fascicle-0-2016) (2016)
+    * [Cossack Labs blog](#cossack-labs-blog-2018) (2018)
+  * [SEI CERT Android Secure Coding Standard](#sei-cert-android-secure-coding-standard-2015) (2015)
+  * [SEI CERT C Coding Standard](#sei-cert-c-coding-standard-2006) (2006)
+  * [Defensive Coding: A Guide to Improving Software Security by the Fedora Security Team](#defensive-coding-a-guide-to-improving-software-security-by-the-fedora-security-team-2018) (2018)
+  * [SEI CERT C++ Coding Standard](#sei-cert-c-coding-standard-2006-1) (2006)
+  * [Security Driven .NET](https://github.com/paragonie/awesome-appsec/blob/master/#-security-driven-net-2015) (2015) 
+  * [Memory Security in Go - cryptolosophy.io](#memory-security-in-go-cryptolosophy-io-2017) (2017)
+  * [SEI CERT Java Coding Standard](#sei-cert-java-coding-standard-2007) (2007)
+  * [Secure Coding Guidelines for Java SE](#secure-coding-guidelines-for-java-se-2014) (2014)
+  * [Node.js Security Checklist - Rising Stack Blog](#node-js-security-checklist-rising-stack-blog-2015) (2015)
+  * [Essential Node.js Security](https://github.com/paragonie/awesome-appsec/blob/master/#-essential-node-js-security-2017) (2017) 
+  * [Security Training by ^Lift Security](https://github.com/paragonie/awesome-appsec/blob/master/#-security-training-by-lift-security) 
+  * [Security Training from BinaryMist](https://github.com/paragonie/awesome-appsec/blob/master/#-security-training-from-binarymist) 
+  * [It's All About Time](#its-all-about-time-2014) (2014)
+  * [Secure Authentication in PHP with Long-Term Persistence](#secure-authentication-in-php-with-long-term-persistence-2015) (2015)
+  * [20 Point List For Preventing Cross-Site Scripting In PHP](#20-point-list-for-preventing-cross-site-scripting-in-php-2013) (2013)
+  * [25 PHP Security Best Practices For Sys Admins](#25-php-security-best-practices-for-sys-admins-2011) (2011)
+  * [PHP data encryption primer](#php-data-encryption-primer-2014) (2014)
+  * [Preventing SQL Injection in PHP Applications - the Easy and Definitive Guide](#preventing-sql-injection-in-php-applications-the-easy-and-definitive-guide-2014) (2014)
+  * [You Wouldn't Base64 a Password - Cryptography Decoded](#you-wouldnt-base64-a-password-cryptography-decoded-2015) (2015)
+  * [A Guide to Secure Data Encryption in PHP Applications](#a-guide-to-secure-data-encryption-in-php-applications-2015) (2015)
+  * [The 2018 Guide to Building Secure PHP Software](#the-2018-guide-to-building-secure-php-software-2017) (2017)
+  * [Securing PHP: Core Concepts](https://github.com/paragonie/awesome-appsec/blob/master/#-securing-php-core-concepts) 
+  * [SEI CERT Perl Coding Standard](#sei-cert-perl-coding-standard-2011) (2011)
+  * [Black Hat Python: Python Programming for Hackers and Pentesters](https://github.com/paragonie/awesome-appsec/blob/master/#-black-hat-python-python-programming-for-hackers-and-pentesters) 
+  * [Violent Python](https://github.com/paragonie/awesome-appsec/blob/master/#-violent-python) 
+  * [OWASP Python Security Wiki](#owasp-python-security-wiki-2014) (2014)
+  * [Secure Ruby Development Guide](#secure-ruby-development-guide-2014) (2014)
+
+### Websites
+* [Hack This Site!](http://www.hackthissite.org) - Learn about application security by attempting to hack this website.
+* [Enigma Group](http://www.enigmagroup.org) - Where hackers and security experts come to train.
+* [Web App Sec Quiz](https://timoh6.github.io/WebAppSecQuiz/) - Self-assessment quiz for web application security
+* [SecurePasswords.info](https://securepasswords.info) - Secure passwords in several languages/frameworks.
+* [Security News Feeds Cheat-Sheet](http://lzone.de/cheat-sheet/Security-News-Feeds) - A list of security news sources.
+* [Open Security Training](http://opensecuritytraining.info/) - Video courses on low-level x86 programming, hacking, and forensics.
+* [MicroCorruption](https://microcorruption.com/login) - Capture The Flag - Learn Assembly and Embedded Device Security
+* [The Matasano Crypto Challenges](http://cryptopals.com) - A series of programming exercises for teaching oneself cryptography by [Matasano Security](http://matasano.com). [The introduction](https://blog.pinboard.in/2013/04/the_matasano_crypto_challenges) by Maciej Ceglowski explains it well.
+* [PentesterLab](https://pentesterlab.com) - PentesterLab provides [free Hands-On exercises](https://pentesterlab.com/exercises/) and a [bootcamp](https://pentesterlab.com/bootcamp/) to get started.
+* [Juice Shop](https://bkimminich.github.io/juice-shop) - An intentionally insecure Javascript Web Application.
+* [Supercar Showdown](http://hackyourselffirst.troyhunt.com/) - How to go on the offence before online attackers do.
+* [OWASP NodeGoat](https://github.com/owasp/nodegoat) - Purposly vulnerable to the OWASP Top 10 Node.JS web application, with [tutorials](https://nodegoat.herokuapp.com/tutorial), [security regression testing with the OWASP Zap API](https://github.com/OWASP/NodeGoat/wiki/NodeGoat-Security-Regression-tests-with-ZAP-API), [docker image](https://github.com/owasp/nodegoat#option-3---run-nodegoat-on-docker). With several options to get up and running fast.
+
+### Blogs
+
+* [Crypto Fails](http://cryptofails.com) - Showcasing bad cryptography
+* [NCC Group - Blog](https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/) - The blog of NCC Group, formerly Matasano, iSEC Partners, and NGS Secure.
+* [Scott Helme](https://scotthelme.co.uk) - Learn about security and performance.
+* [Cossack Labs blog](https://www.cossacklabs.com/blog-archive/) (2018) **Released**: July 30, 2018 - Blog of cryptographic company that makes open-source libraries and tools, and describes practical data security approaches for applications and infrastructures.
+
+### Wiki pages
+
+* [OWASP Top Ten Project](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project) - The top ten most common and critical security vulnerabilities found in web applications.
+
+### Tools
+
+* [Qualys SSL Labs](https://www.ssllabs.com/) - The infamous suite of SSL and TLS tools.
+* [securityheaders.io](https://securityheaders.io/) - Quickly and easily assess the security of your HTTP response headers
+* [report-uri.io](https://report-uri.io) - A free CSP and HPKP reporting service.
+
+## Asset Discovery
+
+### Content Discovery
+* [RustButer](https://github.com/phra/rustbuster) - Files, directories and vhost buster written in Rust.
+
+### IP Address Discovery
+- [Mxtoolbox](https://mxtoolbox.com/BulkLookup.aspx) - Bulk Domain/IP lookup tool  
+- [Domaintoipconverter](http://domaintoipconverter.com/) - Bulk domain to IP converter  
+- [Massdns](https://github.com/blechschmidt/massdns) - A DNS resolver utility for bulk lookups  
+- [Googleapps Dig](https://toolbox.googleapps.com/apps/dig/) - Online Dig tool by Google 
+- [DataSploit (IP Address Modules)](https://github.com/DataSploit/datasploit/tree/master/ip) - An OSINT Framework to perform various recon techniques 
+- [Domain Dossier](https://centralops.net/co/domaindossier.aspx) - Investigate domains and IP addresses 
+- [Bgpview](https://bgpview.io/): Search ASN, IPv4/IPv6 or resource name 
+- [Hurricane Electric BGP Toolkit](https://bgp.he.net/) - Keyword to ASN lookup 
+- [Viewdns](https://viewdns.info/): Multiple domain/IP tools 
+- [Ultratools ipv6Info](https://www.ultratools.com/tools/ipv6Info) - Multiple information related to IPv6 address 
+- [Whois](https://manpages.debian.org/jessie/whois/whois.1.en.html) - Command line utility usually used to find information about registered users/assignees of an Internet resource.
+- [ICANN Whois](https://whois.icann.org/en) - Whois service by Internet Corporation for Assigned Names and Numbers (ICANN) 
+- Nslookup [Linux](https://manpages.debian.org/jessie/dnsutils/nslookup.1.en.html) / [Windows](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/nslookup) - Command line utility usually used for querying the DNS records
+- [bgp](https://bgp.he.net/) - Internet Backbone and Colocation Provider ... Hurricane Electric IP Transit. Our Global Internet Backbone provides IP Transit with low latency, access to thousands of networks, and dual-stack 
+
+### Domain / Subdomain Discovery
+- [SubFinder](https://github.com/subfinder/subfinder) - SubFinder is a subdomain discovery tool that discovers valid subdomains for websites. Designed as a passive framework to be useful for bug bounties and safe for penetration testing.
+- [Amass](https://github.com/OWASP/Amass) - A subdomain enumeration utility 
+- [Sublist3r](https://github.com/aboul3la/Sublist3r) - Subdomains enumeration tool with multiple sources 
+- [Aiodnsbrute](https://github.com/blark/aiodnsbrute) - Asynchronous DNS brute force utility 
+- [LDNS](https://github.com/NLnetLabs/ldns) - A DNS library useful for DNS tool programming 
+- [Dns-nsec3-enum](https://nmap.org/nsedoc/scripts/dns-nsec3-enum.html) - Nmap NSE Script for NSEC3 walking 
+- [Nsec3map](https://github.com/anonion0/nsec3map) - A tool to NSEC and NSEC3 walking
+- [Crt.sh](https://crt.sh/?a=1): Domain certificate Search 
+- [Ct-exposer](https://github.com/chris408/ct-exposer) - A tool to discovers sub-domains by searching Certificate Transparency logs 
+- [Certgraph](https://github.com/lanrat/certgraph) - A tool to crawl the graph of certificate Alternate Names 
+- [Appsecco - The art of subdomain enumeration](https://github.com/appsecco/the-art-of-subdomain-enumeration) - The supplement material for the book "The art of sub-domain enumeration" 
+- [SSLScrape](https://github.com/jhaddix/sslScrape): A scanning tool to scrape hostnames from SSL certificates 
+- [Wolframalpha](https://www.wolframalpha.com/) - Computational knowledge engine 
+- [Project Sonar](https://opendata.rapid7.com/sonar.fdns_v2/) - Forward DNS Data 
+- [Project Sonar](https://opendata.rapid7.com/sonar.rdns_v2/) - Reverse DNS Data 
+- [GoBuster](https://github.com/OJ/gobuster) - Directory/File, DNS and VHost busting tool written in Go
+- [Bluto](https://github.com/darryllane/Bluto) - Recon, Subdomain Bruting, Zone Transfers
+
+### Email Discovery
+- [Hunter](https://hunter.io/) - Email search for a domain  
+- [Skrapp](https://www.skrapp.io/): Browser addon to find emails on Linkedin  
+- [Email Extractor](https://chrome.google.com/webstore/detail/email-extractor/jdianbbpnakhcmfkcckaboohfgnngfcc?hl=en) - Chrome extension to extract emails from web pages  
+- [Convertcsv](http://convertcsv.com/email-extractor.htm) - Online tool to extract email addresses in text, web pages, data files etc. 
+- [linkedin2username](https://github.com/initstring/linkedin2username) - OSINT Tool: Generate username lists for companies on LinkedIn
+- [Office365UserEnum](https://bitbucket.org/grimhacker/office365userenum/src/master/) -  Enumerate valid usernames from Office 365 using ActiveSync.
+
+### Network/Port Scanning
+- [Zmap](https://github.com/zmap/zmap) - A fast network scanner designed for Internet-wide network surveys  
+- [Masscan](https://github.com/robertdavidgraham/masscan) - An asynchronously TCP port scanner  
+- [ZMapv6](https://github.com/tumi8/zmap) - A modified version of Zmap with IPv6 support.  
+- [Nmap](https://nmap.org/) - A free and open source utility for network discovery. The most popular port scanner. 
+
+
+## Credits
+
+* [Application Security](https://github.com/paragonie/awesome-appsec)
+* [Asset Discovery](https://github.com/redhuntlabs/Awesome-Asset-Discovery)
