@@ -291,7 +291,7 @@ A collection of Android Security related Resources.
 - [Googleapps Dig](https://toolbox.googleapps.com/apps/dig/) - Online Dig tool by Google 
 - [DataSploit (IP Address Modules)](https://github.com/DataSploit/datasploit/tree/master/ip) - An OSINT Framework to perform various recon techniques 
 - [Domain Dossier](https://centralops.net/co/domaindossier.aspx) - Investigate domains and IP addresses 
-- [Bgpview](https://bgpview.io/): Search ASN, IPv4/IPv6 or resource name 
+- [Bgpview](https://bgpview.io/)- Search ASN, IPv4/IPv6 or resource name 
 - [Hurricane Electric BGP Toolkit](https://bgp.he.net/) - Keyword to ASN lookup 
 - [Viewdns](https://viewdns.info/): Multiple domain/IP tools 
 - [Ultratools ipv6Info](https://www.ultratools.com/tools/ipv6Info) - Multiple information related to IPv6 address 
@@ -312,7 +312,7 @@ A collection of Android Security related Resources.
 - [Ct-exposer](https://github.com/chris408/ct-exposer) - A tool to discovers sub-domains by searching Certificate Transparency logs 
 - [Certgraph](https://github.com/lanrat/certgraph) - A tool to crawl the graph of certificate Alternate Names 
 - [Appsecco - The art of subdomain enumeration](https://github.com/appsecco/the-art-of-subdomain-enumeration) - The supplement material for the book "The art of sub-domain enumeration" 
-- [SSLScrape](https://github.com/jhaddix/sslScrape): A scanning tool to scrape hostnames from SSL certificates 
+- [SSLScrape](https://github.com/jhaddix/sslScrape) - A scanning tool to scrape hostnames from SSL certificates 
 - [Wolframalpha](https://www.wolframalpha.com/) - Computational knowledge engine 
 - [Project Sonar](https://opendata.rapid7.com/sonar.fdns_v2/) - Forward DNS Data 
 - [Project Sonar](https://opendata.rapid7.com/sonar.rdns_v2/) - Reverse DNS Data 
@@ -333,6 +333,69 @@ A collection of Android Security related Resources.
 - [ZMapv6](https://github.com/tumi8/zmap) - A modified version of Zmap with IPv6 support.  
 - [Nmap](https://nmap.org/) - A free and open source utility for network discovery. The most popular port scanner. 
 
+### Business Communication Infrastructure Discovery
+
+- [Mxtoolbox](https://mxtoolbox.com/) - Online tool to check mail exchanger (MX) records 
+- [MicroBurst](https://github.com/NetSPI/MicroBurst) - PowerShell based Azure security assessment scripts 
+- [Lyncsmash](https://github.com/nyxgeek/lyncsmash) - Tools to enumerate and attack self-hosted Lync/Skype for Business 
+- [Enumeration-as-a-Service](https://github.com/sosdave/Enumeration-as-a-Service): Script for SaaS offering enumeration through DNS queries 
+- [ruler](https://github.com/sensepost/ruler) - A tool to abuse Exchange services
+
+### Source Code Aggregators / Search - Information Discovery
+
+- [Github](https://github.com/search/advanced) - Github Advanced Search 
+- [Bitbucket](https://www.google.com/search?q=site:bitbucket.org&q=<keyword>) - Bitbucket Search using Google
+- [Gitrob](https://github.com/michenriksen/gitrob) - Reconnaissance tool for GitHub organizations 
+- [Gitlab](https://gitlab.com/explore/projects) - Search Gitlab projects 
+- [Publicwww](https://publicwww.com/) - Source Code Search Engine 
+- [builtwith](https://builtwith.com/test.com) - Web technology information profiler tool. Find out what a website is built with.
+
+### Cloud Infrastructure Discovery
+
+- [CloudScraper](https://github.com/jordanpotti/CloudScraper) - A tool to spider websites for cloud resources (S3 Buckets, Azure Blobs, DigitalOcean Storage Space) 
+- [InSp3ctor](https://github.com/brianwarehime/inSp3ctor) - AWS S3 Bucket/Object finder 
+- [Buckets Grayhatwarfare](https://buckets.grayhatwarfare.com/) - Search for Open Amazon s3 Buckets and their contents 
+- [Spaces-finder](https://github.com/appsecco/spaces-finder) - A tool to hunt for publicly accessible DigitalOcean Spaces 
+- [GCPBucketBrute](https://github.com/RhinoSecurityLabs/GCPBucketBrute) - A Google Storage buckets enumeration script 
+- [CloudStorageFinder](https://github.com/digininja/CloudStorageFinder) - Tools to find public data in cloud storage systems
+
+### Company Information and Associations
+
+- [Crunchbase](https://www.crunchbase.com/) - Information about companies (funding, acquisition, merger etc.) and the people behind them 
+- [Companieshouse](https://beta.companieshouse.gov.uk/) - United Kingdom's registrar of companies 
+- [OverSeas Registries](https://www.gov.uk/government/publications/overseas-registries/overseas-registries) - List of company registries located around the world 
+- [Opencorporates](https://opencorporates.com) - Open database of companies in the world 
+
+### Internet Survey Data
+
+- [Project Resonance](https://redhuntlabs.com/project-resonance) - RedHunt Labs’s Internet wide surveys to study and understand the security state of the Internet.
+- [Project Sonar](https://opendata.rapid7.com/) - Rapid7’s internet-wide surveys data across different services and protocols 
+- [Scans.io](https://scans.io) - Internet-Wide Scan Data Repository, hosted by the ZMap Team    
+- [Portradar](https://portradar.packet.tel/) - Free and open port scan data by packet.tel 
+
+### Social Media / Employee Profiling
+
+- [LinkedInt](https://github.com/mdsecactivebreach/LinkedInt) - A LinkedIn scraper for reconnaissance 
+- [Glassdoor](https://www.glassdoor.co.in/Reviews/index.htm) - Company review and rating search 
+- [SocialBlade](https://socialblade.com/) - Track user statistics for different platforms including YouTube and Twitter 
+- [Social-Searcher](https://www.social-searcher.com/) - Social Media Search Engine 
+- [Checkuser](https://checkuser.org) - Social existence checker
+
+### Data Leaks
+
+- [Dumpmon](https://twitter.com/dumpmon) - A twitter bot which monitors multiple paste sites for password dumps and other sensitive information  
+- [Pastebin_scraper](https://github.com/Critical-Start/pastebin_scraper) - Automated tool to monitor pastebin for interesting information 
+- [Scavenger](https://github.com/rndinfosecguy/Scavenger) - Paste sites crawler (bot) looking for leaked credentials
+- [Pwnbin](https://github.com/kahunalu/pwnbin) - Python based Pastebin crawler for keywords.
+- [PwnedOrNot](https://github.com/thewhiteh4t/pwnedOrNot) - Tool to find passwords for compromised accounts
+
+### Internet Scan / Archived Information
+
+- [Cachedviews](https://cachedviews.com/): Cached view of pages on the Internet from multiple sources
+- [Wayback Machine](http://web.archive.org/) - Internet Archive  
+- [Shodan](http://shodan.io/) - Search engine for Internet-connected devices  
+- [Censys](https://censys.io/) - Another search engine for internet-connected devices  
+- [Zoomeye](https://www.zoomeye.org/) - Cyberspace Search Engine  
 
 ## Credits
 
